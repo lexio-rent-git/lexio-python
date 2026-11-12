@@ -35,7 +35,7 @@ print(lexio.organization.get()["data"]["name"])
 
 # Toute la flotte active, page après page
 for vehicle in lexio.paginate(lexio.vehicles.list, is_archived=False):
-    print(vehicle["registrationNumber"], vehicle["status"])
+    print(vehicle["plate"], vehicle["status"])
 
 # Un devis, puis une location au prix du devis
 quote = lexio.quotes.create({

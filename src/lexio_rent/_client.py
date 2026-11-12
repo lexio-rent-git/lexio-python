@@ -12,7 +12,7 @@ from ._errors import LexioError, RateLimitError, error_for
 from ._resources import RESOURCES, SPEC_VERSION
 
 DEFAULT_BASE_URL = "https://api.lexio.rent/api/external/v1"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 USER_AGENT = f"lexio-rent-python/{__version__} (+https://github.com/lexio-rent-git/lexio-python)"
 RETRYABLE = {429, 500, 502, 503, 504}
 

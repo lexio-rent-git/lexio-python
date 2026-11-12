@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "lexio-rent"
-version = "0.1.0"
+version = "0.1.1"
 description = "Client Python de l'API Lexio Rent : flotte, locations, devis, clients, paiements et entretien pour les loueurs de véhicules."
 readme = "README.md"
 license = "MIT"
